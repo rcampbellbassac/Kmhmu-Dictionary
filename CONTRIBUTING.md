@@ -17,11 +17,16 @@ Each new entry needs:
    Kmhmu' Yuan, Kmhmu' Lu, and others). Note the dialect or the village/province/country
    it's from if you know it. If you don't know, say "unknown dialect" rather than omit it.
 4. **Your source** — one of:
-   - Your own native-speaker knowledge (say so, and where you're from/learned it).
+   - Your own native-speaker knowledge (say so — you don't need to give more than your
+     relationship to the language, e.g. "native speaker" or "heritage speaker").
    - A specific published dictionary or wordlist (see [`RESOURCES.md`](RESOURCES.md)),
      with page number if possible.
-   - A conversation with a named or described speaker/elder (e.g. "confirmed with my
-     grandmother, Kmhmu' Rok dialect, Luang Prabang").
+   - A conversation with a speaker/elder, described by dialect and relationship rather
+     than named (e.g. "confirmed with an elder, Kmhmu' Rok dialect, Luang Prabang area").
+
+   PRs are public — please don't include a speaker's full name or other identifying
+   details without their explicit okay to be named. Dialect + role (e.g. "grandmother,"
+   "village elder," "language teacher") is normally enough for confirmation purposes.
 
 Put this information in the **pull request description**, not just the commit — PRs
 without a source note will be asked for one before merge.

@@ -53,10 +53,10 @@ Dr. Premsrirat's RILCA center at Mahidol also publishes a
 
 - **SIL Kmhmu Keyman keyboard** (v1.5, © SIL International) — a Lao-script keyboard layout
   purpose-built for Kmhmu', plus the matching **Kmhmu MX** and **Kmhmu OT** fonts. It
-  covers characters Kmhmu' needs that standard Lao fonts don't reliably support (e.g. the
-  `ໞ`/`ໟ` marks used in this dictionary's existing entries). Available from
-  [SIL's Keyman keyboard listing](https://keyman.com/keyboards/) — search "Kmhmu"; we also
-  have a local copy on file (`sil_kmhmu.kmp`).
+  covers characters Kmhmu' needs that standard Lao fonts don't reliably support, including
+  the `ໞ`/`ໟ` marks (used in some pending/proposed entries — not yet in `kmhmudict.txt` on
+  `master`). Download it from [SIL's Keyman keyboard listing](https://keyman.com/keyboards/)
+  — search "Kmhmu"; it isn't checked into this repo.
   **This is the standard to check spelling/character usage against** — if a submitted
   entry uses characters this keyboard doesn't produce, ask the contributor about it before
   merging.
