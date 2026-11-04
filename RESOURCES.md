@@ -51,11 +51,23 @@ Dr. Premsrirat's RILCA center at Mahidol also publishes a
 
 ## Orthography & typing tools
 
+- **Kmhmu'-Lao-French-English Dictionary** (Suksavang Simana', Somseng Sayavong, Elisabeth Preisig;
+  Vientiane, 1994): orthography pages with sound / Roman ("International Kmhmu' alphabet") / Lao tables.
+  Scans: [archive.org/details/rosettaproject_kjg_ortho-1](https://archive.org/details/rosettaproject_kjg_ortho-1).
+- **Miller, Michelle (2013).** [A description of Kmhmu' Lao script-based orthography](http://mksjournal.org/mks42miller.pdf).
+  *Mon-Khmer Studies* 42:12-25 (Creative Commons). The clearest statement of the Lao-script rules
+  (presyllables, clusters, final consonants, vowels).
+- **Hosken, Martin (2010).** [Proposal to add minority characters to Lao script](https://www.unicode.org/L2/L2010/10335r-n3893r.pdf)
+  (L2/10-335R): U+0EDE LAO LETTER KHMU GO (/g/), U+0EDF LAO LETTER KHMU NYO (final /ɲ/), and U+0EBD used
+  as the consonant /ɟ/. Use **ຣ U+0EA3** for r, not ຮ U+0EAE.
+- **Word spacing:** the SIL Kmhmu keyboard types U+2009 THIN SPACE + U+200B ZERO WIDTH SPACE when you
+  press space after a Lao letter. That pair is the normal Kmhmu' word separator; a double space gives
+  a full space at the end of a sentence.
+
 - **SIL Kmhmu Keyman keyboard** (v1.5, © SIL International) — a Lao-script keyboard layout
   purpose-built for Kmhmu', plus the matching **Kmhmu MX** and **Kmhmu OT** fonts. It
   covers characters Kmhmu' needs that standard Lao fonts don't reliably support, including
-  the `ໞ`/`ໟ` marks (used in some pending/proposed entries — not yet in `kmhmudict.txt` on
-  `master`). Download it from [SIL's Keyman keyboard listing](https://keyman.com/keyboards/)
+  the `ໞ`/`ໟ` letters. Download it from [SIL's Keyman keyboard listing](https://keyman.com/keyboards/)
   — search "Kmhmu"; it isn't checked into this repo.
   **This is the standard to check spelling/character usage against** — if a submitted
   entry uses characters this keyboard doesn't produce, ask the contributor about it before
